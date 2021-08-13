@@ -9,7 +9,7 @@ describe("Intern", () => {
             expect(intern.name).toEqual("Paul Aston");
             expect(intern.id).toEqual(3);
             expect(intern.email).toEqual("p_aston@hotmail.co.uk");
-            expect(intern.school).toEqual("UW");
+            expect(intern.school).toEqual("PH");
             expect(intern.role).toEqual("Intern");
             expect(intern.internCard).toEqual(
                 `<div class='col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-4'>

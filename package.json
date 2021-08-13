@@ -4,7 +4,7 @@
   "description": "build a Node.js command-line application that takes in information about employees on a software engineering team",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/odders17/Team-Profile-Generator#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^8.1.2",
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
     "jest": "^27.0.6"
   }
 }

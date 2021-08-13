@@ -4,12 +4,12 @@ describe("Intern", () => {
 
     describe("Initialization", () => {
         it("Should create an object with a name, id, email address and school if provided valid arguments", () => {
-            const intern = new Intern("Paul Aston", 3, "p_aston@hotmail.co.uk", "PH");
+            const intern = new Intern("Paul Aston", 3, "p_aston@hotmail.co.uk", "UW");
 
             expect(intern.name).toEqual("Paul Aston");
             expect(intern.id).toEqual(3);
             expect(intern.email).toEqual("p_aston@hotmail.co.uk");
-            expect(intern.school).toEqual("PH");
+            expect(intern.school).toEqual("UW");
             expect(intern.role).toEqual("Intern");
             expect(intern.internCard).toEqual(
                 `<div class='col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-4'>
@@ -20,7 +20,7 @@ describe("Intern", () => {
                         <div class='card'>
                             <ul class='list-group list-group-flush'>
                                 <li class='list-group-item'>EMPLOYEE ID:&nbsp 3</li>
-                                <li class='list-group-item'>EMAIL:&nbsp <a href="p_aston@hotmail.co.uk">p_aston@hotmail.co.uk</a></li>
+                                <li class='list-group-item'>EMAIL:&nbsp <a href="mailto:p_aston@hotmail.co.uk">p_aston@hotmail.co.uk</a></li>
                                 <li class='list-group-item'>SCHOOL:&nbsp UW</li>
                             </ul>
                         </div>

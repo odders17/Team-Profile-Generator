@@ -4,12 +4,12 @@ describe("Engineer", () => {
 
     describe("Initialization", () => {
         it("Should create an object with a name, id, email address, GitHub Username, role, and cardHTML if provided valid arguments", () => {
-            const engineer = new Engineer("Paul Aston", 3, "p_aston@hotmail.co.uk", "PaulAston");
+            const engineer = new Engineer("Paul Aston", 3, "p_aston@hotmail.co.uk", "odders17");
 
             expect(engineer.name).toEqual("Paul Aston");
             expect(engineer.id).toEqual(3);
             expect(engineer.email).toEqual("p_aston@hotmail.co.uk");
-            expect(engineer.github).toEqual("PaulAston");
+            expect(engineer.github).toEqual("odders17");
             expect(engineer.role).toEqual("Engineer");
             expect(engineer.engineerCard).toEqual(
             `<div class='col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-4'>
@@ -21,7 +21,7 @@ describe("Engineer", () => {
                             <ul class='list-group list-group-flush'>
                                 <li class='list-group-item'>EMPLOYEE ID:&nbsp 3</li>
                                 <li class='list-group-item'>EMAIL:&nbsp <a href="mailto:p_aston@hotmail.co.uk">p_aston@hotmail.co.uk</a></li>
-                                <li class='list-group-item'>GITHUB USERNAME:&nbsp <a href="https://github.com/odders17">PaulAston</a></li>
+                                <li class='list-group-item'>GITHUB USERNAME:&nbsp <a href="https://github.com/odders17">odders17</a></li>
                             </ul>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ describe("Engineer", () => {
 
     describe("GitHub", () => {
         it("Should set the GitHub Username via the constructor function", () => {
-            const input = "PaulAston";
+            const input = "odders17";
             const result = new Engineer("Name", 1, "name@name.com", input).getGithub();
 
             expect(input).toEqual(result);

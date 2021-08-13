@@ -1,4 +1,4 @@
-const Manager = require('../lib/manager');
+const Manager = require('../team/manager');
 
 describe("Manager", () => {
 

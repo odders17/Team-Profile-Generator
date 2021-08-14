@@ -9,4 +9,4 @@ Link To Screencastify Video
 
 https://drive.google.com/file/d/1gvOSpePjsPvLsD7KUIsAIgFPbvEtEw6D/view
 
-![ScreencastifyVideo](./styles/ScreencastifyTeamGenerator.gif)
+![ScreencastifyVideo](./styles/screencastifyTeamGenerator.gif)

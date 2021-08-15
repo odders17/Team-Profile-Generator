@@ -58,9 +58,9 @@ This exercise was my first experience at writing tests.
 ## Usage
 
 * Open Team-Profile-Generator (now stored on your machine) in your terminal.
-Run node index.js
-You will be prompted to answer questions about your team. Answer each question.
-Your My-Team.html file will write to the output folder.
+* Run node index.js
+* You will be prompted to answer questions about your team. Answer each question.
+* Your My-Team.html file will write to the output folder.
 
 ## Link To Live Page
 

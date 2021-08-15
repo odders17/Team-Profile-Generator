@@ -14,10 +14,10 @@ This exercise was my first experience at writing tests.
 
 # Table of Contents
 
-*Core Objectives Met
-*Technologies Used
-*Installation
-*Usage
+* Core Objectives Met
+* Technologies Used
+* Installation
+* Usage
 
 ## Core Objectives Met
 
